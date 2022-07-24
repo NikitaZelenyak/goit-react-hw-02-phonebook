@@ -30,7 +30,7 @@ state={
     
 
         if (checkOnIncludes) {
-      return alert('Change name')
+      return alert(`${name} is already in contacts`)
         }
 
     this.setState(prevState => ({
